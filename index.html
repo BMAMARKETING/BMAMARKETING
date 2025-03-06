@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMA Marketing</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+            integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+    />
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link href="style/css.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAV BAR START -->
+<div class="navbar">
+    <a href="index.html" id="logo">BMA Marketing</a>
+    <div class="nav-links">
+        <a href="#about-container">About Us</a>
+        <a href="#services-title">Services</a>
+    </div>
+    <div class="right-links">
+        <a href="#contact-section">Contact</a>
+        <a href="FAQ.html">FAQ</a>
+    </div>
+    <!-- Mobil hamburger menü ikonu (Font Awesome kullanılıyor) -->
+    <div class="hamburger">
+        <i class="fa fa-bars"></i>
+    </div>
+</div>
+
+<!-- Mobil menü -->
+<div class="mobile-menu">
+    <a href="#about-container">About Us</a>
+    <a href="#services-title">Services</a>
+    <a href="#contact-section">Contact</a>
+    <a href="FAQ.html">FAQ</a>
+</div>
+<!-- NAV BAR END -->
+
+
+
+<section class="hero-section">
+        <div class="hero-content">
+            <h1 id="hero-text" style="background: linear-gradient(90deg, #ff9966, #00c6ff); color: white">Let's Grow Your<br><strong>Business Together</strong></h1>
+            <p id="hero-subtext">Empowering brands with innovative strategies and measurable success.</p>
+        </div>
+        <div class="hero-logo">
+            <img src="img/logobma.png" alt="BMA Logo">
+        </div>
+</section>
+
+
+
+
+
+<h1 id="about-container" style="text-align: center; padding: 20px; font-size: 40px; font-weight: bold; color: white;">About Us</h1>
+<section class="about-container" >
+    <div class="about-card">
+        <h2>Who are we?</h2>
+        <p>BMA Marketing is a Leicester-based agency dedicated to helping businesses achieve their marketing goals with innovative strategies and tailored solutions. We believe in the power of data-driven marketing to shape brands, drive engagement, and deliver measurable results.</p>
+    </div>
+    <div class="about-card">
+        <h2>Our Mission</h2>
+        <p>Our mission is to empower businesses with data-driven marketing strategies that lead to measurable success. We strive to provide cutting-edge solutions that help brands connect meaningfully with their audiences.</p>
+    </div>
+    <div class="about-card">
+        <h2>Our Vision</h2>
+        <p>At BMA Marketing, we envision a world where every brand, big or small, can make a meaningful connection with its audience. Through creativity, strategy, and analytics, we craft marketing campaigns that leave a lasting impact.</p>
+    </div>
+    <div class="about-card">
+        <h2>Why Choose Us?</h2>
+        <p>
+            - Expertise in digital marketing, branding, and strategy.<br>
+            - Data-driven campaigns for real results.<br>
+            - A team dedicated to innovation and success.<br>
+            - Personalized solutions tailored to your business needs.
+        </p>
+    </div>
+</section>
+
+<section class="logo-carousel">
+    <div class="carousel">
+        <img src="work_logo/logobma.png" class="active" alt="Logo 1">
+        <img src="work_logo/logo3.png" alt="Logo 2">
+        <img src="work_logo/logo2.png" alt="Logo 3">
+        <img src="work_logo/logo4.png" alt="Logo 4">
+        <img src="work_logo/logo5.png" alt="Logo 5">
+
+    </div>
+    <div class="dots">
+        <span class="dot active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+
+    </div>
+</section>
+
+<section class="services-section" >
+    <h1  id="services-title">Digital <span>Consulting</span> Services</h1>
+    <p id="services-description">At BMA Marketing, we provide innovative strategies and tailored solutions to empower businesses. Explore our digital consulting services below.</p>
+    <div class="services-container">
+        <div class="service-card" onclick="toggleService(this)">
+            <h3>Market Research and Analysis</h3>
+            <p class="service-description">
+              - Identifying competitors and analyzing their strengths, weaknesses, and strategies. <br>
+                -   Market Segmentation: Dividing a broad market into smaller segments with shared characteristics for targeted marketing. <br>
+                -  Surveys and Focus Groups: Collecting data from consumers through interviews, focus groups, or online surveys to gain insights.</p>
+        </div>
+        <div class="service-card" onclick="toggleService(this)">
+            <h3>Advertising and Promotions</h3>
+            <p class="service-description">
+                -  Running ads on platforms like Google, Facebook, Instagram, and TikTok. <br>
+                -  Traditional Advertising: Advertising via print media, billboards, or direct mail campaigns. <br>
+                -    Promotional Campaigns: Planning and executing special deals, offers, or seasonal campaigns to boost sales.</p>
+        </div>
+        <div class="service-card" onclick="toggleService(this)">
+            <h3>Content Creation and Strategy</h3>
+            <p class="service-description">
+                -    Creating and distributing valuable content (blogs, videos, podcasts) to engage and attract potential customers.<br>
+                -   Video Production: Developing video content for advertising, brand awareness, and social media engagement.</p>
+        </div>
+        <div class="service-card" onclick="toggleService(this)">
+            <h3>Social Media Management</h3>
+            <p class="service-description">
+                -    Developing a social media plan that aligns with the company’s overall marketing strategy.<br>
+                -    Platform Management: Managing the company’s presence on platforms like Facebook, Instagram, Twitter, and TikTok. <br>
+                -   Engagement and Community Management: Interacting with followers, handling queries, and building relationships with the audience.</p>
+        </div>
+        <div class="service-card" onclick="toggleService(this)">
+            <h3>Public Relations (PR)</h3>
+            <p class="service-description">
+                - Building relationships with journalists, bloggers, and influencers to get positive media coverage. <br>
+                -    Reputation Management: Managing and improving a company's public image, including handling crises or negative press.</p>
+        </div>
+        <div class="service-card" onclick="toggleService(this)">
+            <h3>Influencer and Affiliate Marketing</h3>
+            <p class="service-description">
+                -   Influencer Partnerships: Collaborating with influencers to promote products through their social media channels. <br>
+                -   Affiliate Programs: Creating and managing affiliate programs where partners promote products in exchange for commissions.</p>
+        </div>
+        <div class="service-card" onclick="toggleService(this)">
+            <h3>Data Analytics and Performance Tracking</h3>
+            <p class="service-description">Data Analytics and Performance Tracking
+
+                -   Campaign Performance Analysis: Measuring the success of marketing efforts through metrics like ROI, conversions, and engagement. <br>
+                -   Customer Data and Insights: Analyzing customer data to identify patterns, behaviors, and opportunities for future campaigns.</p>
+        </div>
+    </div>
+</section>
+
+<section class="contact-section">
+    <h2 id="contact-section">Contact Us</h2>
+    <form class="contact-form">
+        <input type="text" name="full-name" placeholder="Full Name" >
+        <input type="tel" name="phone-number" placeholder="Phone Number" >
+        <input type="text" name="subject" placeholder="Subject" >
+        <textarea name="about" placeholder="Your Message" rows="4" ></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+    <script>
+        document.querySelector(".contact-form").addEventListener("submit", function(event) {
+            event.preventDefault();
+            alert("This feature is currently unavailable. You can find the contact details below.");
+        });
+    </script>
+</section>
+
+
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-section">
+            <h2>BMA - MARKETING</h2>
+            <p>"Your brand, our passion"</p>
+        </div>
+        <div class="footer-section">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="FAQ.html">FAQ</a></li>
+            </ul>
+        </div>
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>Phone: <a href="tel:+1234567890">+44 782 835 0680</a></p>
+            <p>Email: <a href="mailto:info@bma-marketing.com">info@bma-marketing.com</a></p>
+        </div>
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/bma.marketing1/?hl=en" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/105840582/admin/dashboard/" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <p class="footer-bottom">© 2024 BMA-MARKETING. All rights reserved.</p>
+</footer>
+
+
+<script src="./js/hero_task.js"></script>
+<script src="./js/card.js"></script>
+<script src="./js/mobile.js"></script>
+
+</body>
+</html>
